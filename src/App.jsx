@@ -1,12 +1,15 @@
 
 import './App.css'
+import Header from './Components/Header'
+import AllRoutes from './Routes/AllRoutes'
 
 function App() {
 
 
   return (
     <>
-     <h2 className="text-3xl font-bold underline">hi</h2>
+  {/* <Header/> */}
+  <AllRoutes/>
     </>
   )
 }
